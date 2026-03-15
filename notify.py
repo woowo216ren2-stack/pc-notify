@@ -11,17 +11,9 @@ JST = timezone(timedelta(hours=9))
 
 # RSSフィード一覧
 FEEDS = [
-    # 自作PC・ガジェットニュース
-    {"name": "Akiba-PC Hotline", "url": "https://akiba-pc.watch.impress.co.jp/data/rss/1.0/ap/feed.rdf"},
-    {"name": "ASCII PC", "url": "https://ascii.jp/rss/rss_pc.xml"},
     {"name": "エルミタージュ秋葉原", "url": "https://www.gdm.or.jp/feed"},
-    # ショップ新着・セール
-    {"name": "パソコン工房", "url": "https://www.pc-koubou.jp/rss/news.rss"},
-    {"name": "ドスパラ", "url": "https://www.dospara.co.jp/info/rss/news.rdf"},
-    {"name": "ツクモ", "url": "https://www.tsukumo.co.jp/info/rss.rdf"},
-    {"name": "アーク", "url": "https://www.ark-pc.co.jp/rss/news.rss"},
-    # Amazonセール
-    {"name": "Amazon Sale RSS", "url": "https://www.amazon.co.jp/rss/bestsellers/electronics/"},
+    {"name": "ASCII.jp 自作PC", "url": "https://ascii.jp/pc/rss.xml"},
+    {"name": "ITmedia PC USER", "url": "https://rss.itmedia.co.jp/rss/2.0/pcuser.xml"},
 ]
 
 # キーワードフィルター
